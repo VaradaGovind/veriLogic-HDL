@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Sep  4 02:19:15 2025
+# Process ID         : 14228
+# Current directory  : C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19852 C:\Users\Varada Govind\Documents\Coding\Verilog\Sequential Logic\D Flip Flop\D Flip Flop.xpr
+# Log file           : C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/vivado.log
+# Journal file       : C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop\vivado.jou
+# Running On         : AsusTuf-A16
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics        
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16366 MB
+# Swap memory        : 7784 MB
+# Total Virtual      : 24151 MB
+# Available Virtual  : 10897 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new
+file mkdir {C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new}
+close [ open {C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new/Test_Bench.v} w ]
+add_files -fileset sim_1 {{C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D Flip Flop/D Flip Flop.srcs/sim_1/new/Test_Bench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source Test_Bench.tcl
+close_sim

@@ -1,0 +1,128 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Sep  3 11:23:36 2025
+# Process ID         : 9380
+# Current directory  : C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent6192 C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.xpr
+# Log file           : C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/vivado.log
+# Journal file       : C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter\vivado.jou
+# Running On         : AsusTuf-A16
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics        
+# CPU Frequency      : 3194 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16366 MB
+# Swap memory        : 7784 MB
+# Total Virtual      : 24151 MB
+# Available Virtual  : 15597 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter'
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.srcs/sim_1/new/Test_Bench.v} w ]
+add_files -fileset sim_1 {{C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.srcs/sim_1/new/Test_Bench.v}}
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sim_1\new\Test_Bench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Varada Govind\Documents\Coding\Verilog\Combinational Logic\8-Bit Barrel Shifter\8-Bit Barrel Shifter.srcs\sources_1\new\Barrel_Shifter.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Test_Bench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'Test_Bench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Test_Bench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.srcs/sources_1/new/Barrel_Shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Barrel_Shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.srcs/sim_1/new/Test_Bench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test_Bench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_Bench_behav xil_defaultlib.Test_Bench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Test_Bench_behav xil_defaultlib.Test_Bench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Barrel_Shifter
+Compiling module xil_defaultlib.Test_Bench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_Bench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Test_Bench_behav -key {Behavioral:sim_1:Functional:Test_Bench} -tclbatch {Test_Bench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Test_Bench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | In=10101010 | n=1 | LR=1 | Out=01010100
+Time=10000 | In=11001100 | n=3 | LR=1 | Out=01100000
+Time=20000 | In=11110000 | n=2 | LR=0 | Out=00111100
+Time=30000 | In=10000001 | n=5 | LR=0 | Out=00000100
+Time=40000 | In=00011100 | n=0 | LR=1 | Out=00011100
+$finish called at time : 50 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/8-Bit Barrel Shifter/8-Bit Barrel Shifter.srcs/sim_1/new/Test_Bench.v" Line 31
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Test_Bench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1224.641 ; gain = 0.941
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  3 11:29:53 2025...

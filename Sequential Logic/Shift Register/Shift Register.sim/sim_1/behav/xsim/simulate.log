@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+T=0 | Sel=00 | PI=00000 | SI=0 | PO=xxxxx | SO=x
+T=5000 | Sel=00 | PI=00000 | SI=0 | PO=00000 | SO=0
+T=10000 | Sel=11 | PI=10101 | SI=0 | PO=00000 | SO=0
+T=15000 | Sel=11 | PI=10101 | SI=0 | PO=10101 | SO=1
+T=20000 | Sel=01 | PI=10101 | SI=1 | PO=10101 | SO=1
+T=25000 | Sel=01 | PI=10101 | SI=1 | PO=01011 | SO=0
+T=30000 | Sel=01 | PI=10101 | SI=0 | PO=01011 | SO=0
+T=35000 | Sel=01 | PI=10101 | SI=0 | PO=10110 | SO=1
+T=40000 | Sel=10 | PI=10101 | SI=1 | PO=10110 | SO=0
+T=45000 | Sel=10 | PI=10101 | SI=1 | PO=11011 | SO=1
+T=50000 | Sel=00 | PI=10101 | SI=1 | PO=11011 | SO=1
+$finish called at time : 70 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/Shift Register/Shift Register.srcs/sim_1/new/Test_Bench.v" Line 35

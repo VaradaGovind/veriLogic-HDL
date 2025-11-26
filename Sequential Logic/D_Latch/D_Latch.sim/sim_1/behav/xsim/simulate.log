@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+Time=0 | En=0 | D=0 | Q=x
+Time=10000 | En=1 | D=1 | Q=1
+Time=20000 | En=1 | D=0 | Q=1
+Time=30000 | En=0 | D=0 | Q=1
+Time=40000 | En=0 | D=1 | Q=1
+Time=50000 | En=1 | D=1 | Q=1
+Time=60000 | En=0 | D=1 | Q=1
+$finish called at time : 80 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Sequential Logic/D_Latch/D_Latch.srcs/sim_1/new/Test_Bench.v" Line 27

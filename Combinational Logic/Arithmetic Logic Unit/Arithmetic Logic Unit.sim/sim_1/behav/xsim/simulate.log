@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+Time	Opcode	A	B	X	Y	Z C V N
+0	0000	1	0	1	0	0 0 0 0
+10000	0000	0	0	0	0	1 0 0 0
+20000	0001	f	0	1	0	0 0 0 0
+30000	0010	a	0	0	0	1 0 0 0
+40000	0011	c	a	8	0	0 0 0 1
+50000	0100	c	a	e	0	0 0 0 1
+60000	0101	c	a	6	0	0 0 0 0
+70000	0110	a	5	1	0	0 0 0 0
+80000	0111	3	7	1	0	0 0 0 0
+90000	1000	a	7	5	0	0 0 0 0
+100000	1001	7	7	1	0	0 0 0 0
+110000	1001	7	5	0	0	1 0 0 0
+120000	1010	9	6	f	0	0 0 0 1
+130000	1011	3	4	c	0	0 0 0 1
+140000	1100	3	4	c	0	0 0 0 1
+150000	1101	8	2	2	0	0 0 0 0
+160000	1110	8	2	0	2	1 0 0 0
+170000	1111	c	2	3	0	0 0 0 0
+Invalid opcode: xxxx
+180000	xxxx	c	2	0	0	1 0 0 0
+$finish called at time : 190 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/Arithmetic Logic Unit/Arithmetic Logic Unit.srcs/sim_1/new/Test_Bench.v" Line 80

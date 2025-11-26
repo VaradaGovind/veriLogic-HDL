@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+Time	Select	Inputs	Output
+0ns	00	1010	0
+10ns	01	1010	1
+20ns	10	1010	0
+30ns	11	1010	1
+40ns	00	1100	0
+50ns	01	1100	0
+60ns	10	1100	1
+70ns	11	1100	1
+$finish called at time : 80 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/4-1 Multiplexer/4-1 Multiplexer.srcs/sim_1/new/Test_Bench.v" Line 30

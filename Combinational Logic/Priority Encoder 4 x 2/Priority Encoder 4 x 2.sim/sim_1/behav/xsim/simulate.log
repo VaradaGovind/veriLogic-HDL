@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Time	Input	Y	V
+0ns	0000	00	0
+10ns	0001	00	1
+20ns	0010	01	1
+30ns	0100	10	1
+40ns	1000	11	1
+50ns	1110	01	1
+60ns	1111	00	1
+$finish called at time : 70 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/Priority Encoder 4 x 2/Priority Encoder 4 x 2.srcs/sim_1/new/Test_Bench.v" Line 27

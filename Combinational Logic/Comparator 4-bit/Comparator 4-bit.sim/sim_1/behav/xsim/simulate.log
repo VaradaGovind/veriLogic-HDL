@@ -1,9 +1,0 @@
-Time resolution is 1 ps
-Time	A	B	Eq	Gt	Sm
-0ns	0000	0000	1	0	0
-10ns	0101	0011	0	1	0
-20ns	0010	1010	0	0	1
-30ns	1111	1111	1	0	0
-40ns	0001	0000	0	1	0
-50ns	0000	0001	0	0	1
-$finish called at time : 60 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/Comparator 4-bit/Comparator 4-bit.srcs/sim_1/new/Test_Bench.v" Line 27

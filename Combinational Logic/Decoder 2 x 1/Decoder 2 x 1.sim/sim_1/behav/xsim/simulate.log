@@ -1,9 +1,0 @@
-Time resolution is 1 ps
-Time	En	Input	Y
-0ns	0	00	0000
-10ns	1	00	0001
-20ns	1	01	0010
-30ns	1	10	0100
-40ns	1	11	1000
-50ns	0	11	0000
-$finish called at time : 60 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/Decoder 2 x 1/Decoder 2 x 1.srcs/sim_1/new/Test_Bench.v" Line 27

@@ -1,8 +1,0 @@
-Time resolution is 1 ps
-A B | Sum Carry || Diff Borrow
--------------------------------
-0 0 |  0    0   ||  0     0
-0 1 |  1    0   ||  1     1
-1 0 |  1    0   ||  1     0
-1 1 |  0    1   ||  0     0
-$finish called at time : 40 ns : File "C:/Users/Varada Govind/Documents/Coding/Verilog/Combinational Logic/Half Adder and Half Subtractor/Experiment 1.srcs/sim_1/new/Test_Bench.v" Line 43
